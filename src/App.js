@@ -1,42 +1,25 @@
-const cardsList = [
+const bannerCardsList = [
   {
     id: 1,
-    title: 'Data Scientist',
-    description:
-      'Data scientists gather and analyze large sets of structured and unstructured data',
-    imgUrl: 'https://assets.ccbp.in/frontend/react-js/data-scientist-img.png',
+    headerText: 'The Seasons Latest',
+    description: 'Get the seasons all latest designs in a flick of your hand',
     className: 'card-1',
   },
   {
     id: 2,
-    title: 'IOT Developer',
+    headerText: 'Our New Designs',
     description:
-      'IoT Developers are professionals who can develop, manage, and monitor IoT devices.',
-    imgUrl: 'https://assets.ccbp.in/frontend/react-js/iot-developer-img.png',
+      'Get the designs developed by our in-house team all for yourself',
     className: 'card-2',
   },
   {
     id: 3,
-    title: 'VR Developer',
-    description:
-      'A VR developer creates completely new digital environments that people can see.',
-    imgUrl: 'https://assets.ccbp.in/frontend/react-js/vr-developer-img.png',
+    headerText: 'Insiders',
+    description: 'Get the top class products for yourself with an extra off',
     className: 'card-3',
-  },
-  {
-    id: 4,
-    title: 'ML Engineer',
-    description:
-      'Machine learning engineers feed data into models defined by data scientists.',
-    imgUrl: 'https://assets.ccbp.in/frontend/react-js/ml-engineer-img.png',
-    className: 'card-4',
   },
 ]
 
-const App = () => (
-  <div className="cards-app-container">
-    <h1>Hello World</h1>
-  </div>
-)
+const App = () => <h1>Hello Word</h1>
 
 export default App
